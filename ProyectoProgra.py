@@ -5,6 +5,7 @@ Proyecto final para nuestro curso de progra
 """
 
 # Acceso al sistema
+# Inicio de sesion al sistema
 
 usuarios_validos = ["Profesor1", "Profesor2", "Profesor3"]
 password_correcta = "123"
