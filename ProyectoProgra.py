@@ -131,7 +131,7 @@ def informeGeneral(matriz, promedios, estados, materias, estudiantes):
 
         promedioMateria = total / len(estudiantes)
 
-        print("Promedio de", materias[j], ":", promedioMateria)
+        print("Promedio general de", materias[j], ":", promedioMateria)
 
     mejorPromedio = 0
     nombreMejor = ""
