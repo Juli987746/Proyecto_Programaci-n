@@ -64,12 +64,13 @@ def registroNotas(materias, estudiantes):
     matriz=[]
     promedios=[]
     estados=[]
+    print("Ingresa las notas de cada estudiante:")
+    print()
+
 
     for estudiante in estudiantes:
         notas=[]
         total = 0
-        print("Ingresa las notas de cada estudiante:")
-        print()
         for materia in materias: 
             notaMateria = int(input("Ingrese la nota de " + materia + " del estudiante " + estudiante + ": "))
             notas.append(notaMateria)
@@ -153,4 +154,3 @@ materias, estudiantes = registroEstudiantes()
 matriz, estados, promedios = registroNotas(materias, estudiantes)
 consultaEstudiante(matriz, estudiantes, estados, promedios)
 informeGeneral(matriz, promedios, estados, materias, estudiantes)
-
